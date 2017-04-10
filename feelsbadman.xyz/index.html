@@ -4,16 +4,25 @@
 
 </head>
 <body>
+<div class="fill-screen">
+    <img class="make-it-fit" src="feelsbadman.png">
+</div>
 </body>
 <script>
 </script>
 <style>
-body {
-    background-image: url('feelsbadman.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: 30% 30%;
+div.fill-screen {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    text-align: center;
+}
+
+img.make-it-fit {
+    max-width: 99%;
+    max-height: 99%;
 }
 
 </style>
